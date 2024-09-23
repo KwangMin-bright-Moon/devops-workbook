@@ -1,0 +1,8 @@
+ec2_server: # Group name
+  hosts: # Group type
+    test1: # Host name (ansible_host is a required variable)
+      ansible_host: ec2-3-38-250-108.ap-northeast-2.compute.amazonaws.com
+      ansible_user: ubuntu
+    test2:
+      ansible_host: ec2-3-36-121-137.ap-northeast-2.compute.amazonaws.com
+      ansible_user: ubuntu
